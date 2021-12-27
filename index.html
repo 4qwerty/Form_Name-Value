@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <form method="post">
+    <h1>Test</h1>
+    <div>
+      <p>Name/Value Pair</p>
+      <input type="text" name="Add">
+      <button type="button" onclick="addNameValue()">Add</button>
+      <p id="errorMessage">The entered value is incorrect</p>
+    </div>
+
+    <div class="listInteraction">
+      <div>
+        <p>Name/Value Pair List</p>
+        <select id="selectListNameValue" multiple></select>
+      </div>
+
+      <div class="btn-group" id="output">
+        <button type="button" onclick="sortByName()">Sort by name</button>
+        <button type="button" onclick="sortByValue()">Sort by value</button>
+        <button type="button" onclick="removeItem()">Delete</button>
+        <button type="button" onclick="showXML()">Show XML</button>
+      </div>
+
+    </div>
+
+    <pre id="outputXML"/>
+
+  </form>
+
+  <script src="scrypt.js"></script>
+</body>
+
+</html>

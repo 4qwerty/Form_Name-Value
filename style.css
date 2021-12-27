@@ -1,0 +1,73 @@
+h1,
+p,
+body {
+  margin: 0;
+}
+
+body {
+  background-color: #8dc2f3;
+}
+
+form {
+  margin: 100px auto;
+  width: 405px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+div+div {
+  margin-top: 1em;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+p {
+  display: block;
+  font-size: 10pt;
+  text-align: left;
+  color: #727272;
+  margin: 0;
+}
+
+#errorMessage {
+  margin-top: 0;
+  color: red;
+  visibility: hidden;
+}
+
+input {
+  font: 1em sans-serif;
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+select {
+  height: 200px;
+  width: 300px;
+}
+
+pre {
+  height: 0px;
+}
+
+.listInteraction {
+  display: flex;
+}
+
+.btn-group button {
+  display: block;
+}
+
+button,
+.btn-group:not(:first-child) {
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
